@@ -1,0 +1,85 @@
+body{
+    margin: auto;
+    background-color: #f9f9fd!important;
+}
+
+#header{
+    height:60px;
+    background-color: #3c3f72!important;
+}
+
+#zomato{
+    color:#eaecf3;
+    text-decoration: none;
+}
+
+#zomato:hover {
+    color: #641414;
+    text-decoration: solid;
+}
+.socialicon{
+    height:50px;
+    width:50px;
+}
+
+#brand{
+    font-size:28px;
+    color:white;
+    display: inline-block;
+    margin-left:5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif!important;
+}
+
+.social{
+    display:inline-block;
+    margin-left:62%;
+    /* float:right;
+    margin-right:10% */
+}
+
+/*.glyphicon{
+    top: 4px;
+    font-style: oblique;
+    font-weight: bold;
+    margin-left: 45px;
+    font-size: large;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: #1a1919;
+    text-decoration: solid;
+}*/
+
+/* .btn{
+    width: 141px;
+    border-radius: 19px;
+    margin-top: -11%;
+    position: relative;
+} */
+.btn{
+    height: 34px;
+    width: 111px;
+    margin-left: 11px;
+    font-size: 17px;
+}
+
+
+.btn-info {
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    margin-bottom: 0px;
+}
+#logout {
+    width: 100px!important;
+    height: 38px!important;
+    margin-top: 2%!important;
+    background: #ab5a74;
+    color: white;
+    font-size: 18px!important;
+    margin-left: 121%!important;
+    position: relative!important;
+}

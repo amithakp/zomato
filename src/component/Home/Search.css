@@ -1,0 +1,281 @@
+
+#search{
+    width: 100%;
+    height: 400px;
+    background-image:url('https://i.ibb.co/gJbF4yH/food-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:6%;
+    background-size: 100% 500px;/*img to fix*/
+}
+
+#logo{
+    height:110px;
+    width:110px;
+    background-color:white;
+    border-radius:50%;
+    margin-left:0%;
+    margin-top: 4%;
+    font-size:80px;
+    text-align:center;
+    color:#d21818;
+    animation: movelogo 5s;
+    position:absolute;
+}
+@keyframes movelogo{
+    0% {margin-left:0%;}
+    20% {margin-left:45%;}
+    40% {margin-left:92%;}
+}
+
+#logo > span{
+    margin-left: -24%;
+    margin-top: 2%;
+    position:absolute;
+}
+
+#heading{
+    background-color: rgb(47, 90, 90);
+    font-size: 25px;
+    color:white;
+    width: 20%;
+    margin-top: 14%;
+    margin-left: 35%;
+    text-align:center;
+    position:absolute;
+}
+
+#dropdown{
+    height:40px;
+    width: 50%;
+    margin:auto;
+    margin-top: 17%;
+    margin-left: 28%;
+    position:absolute;
+}
+
+select{
+    height:40px;
+    width: 39%;   
+    font-size: 20px;
+    text-align: center;
+    margin-left: 1%;
+}
+.restDrop{
+    width: 59%;  
+}
+#quicksearch{
+    width: 80%;
+    margin-left:10%;
+    margin-top: 2%;
+    border-color: 2x solid rgb(204, 36, 36);
+}
+
+#QuickHeading{
+    color:rgb(46, 5, 85);
+    font-size:30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    display:block;
+    margin-left: 2%;
+}
+ 
+#QuickSubHeading{
+    color:gray;
+    font-size:25px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    display:block;
+    line-height: 2;
+    margin-left: 2%;
+}
+
+.tileContainer{
+    height:180px;
+    width:30%; 
+    display: inline-block;
+    margin-top:2%;
+    margin-left: 2%;
+    box-shadow: 10px 15px 20px gray;
+}
+
+.tileContainer:hover{
+    /*transform: rotate(70deg);*/
+    transform: scale(1.1);
+    background-color: rgb(218, 194, 194);
+}
+
+footer{
+    text-align:center;
+    font-size:25px;
+}
+
+.TileComponent1{
+   
+    width:46%;
+    float: left;
+}  
+
+.TileComponent1 > img{
+    height:180px;
+    width:100%
+}
+.TileComponent2{
+    width:46%;
+    float: left;
+    margin-top: 4%;
+    margin-left:8%;
+}  
+
+.ComponentHeading{
+    color:rgb(230, 52, 28);
+    font-size:25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.ComponentSubHeading{
+    color:rgb(146, 98, 98);
+    font-size: 20px;
+    
+}
+@media screen and (max-width:1400px){
+    body{
+        background-color: rgb(250, 184, 206);
+    }
+    .tileContainer{
+        box-shadow: 10px 15px 20px rgb(245, 242, 242);
+    }
+    footer{
+        text-align:center;
+        font-size:25px;
+        height:8%;
+    }
+    #logo{
+        margin-left:46%;
+    }
+}
+@media screen and (max-width:1400px){
+    body{
+        background-color: rgb(147, 204, 204);
+        box-shadow:white !important;
+    }
+    #heading{
+        width: 28%; 
+    }
+}
+@media screen and (max-width:1200px){
+    body{
+        background-color: rgb(207, 228, 90);
+        height:200px;
+    }
+    #heading{
+        width: 30%; 
+    }
+    #logo > span{
+        margin-left:-2.5%;
+    }
+    #logo{
+        margin-left:46%;
+    }
+}
+@media screen and (max-width:1100px){
+    body{
+        background-color: rgb(221, 148, 243); 
+    }
+    .tileContainer{
+        box-shadow: 10px 15px 20px rgb(46, 45, 45);
+        width:45%;
+    }
+    #heading{
+        width: 35%; 
+    }
+    #logo > span{
+        margin-left:-3%;
+        
+    }
+    #logo{
+        margin-left:45%;
+    }
+}
+@media screen and (max-width:900px){
+    body{
+        background-color: rgb(225, 205, 231); 
+    }
+    .tileContainer{
+        box-shadow: 10px 15px 20px rgb(46, 45, 45);
+        width:45%;
+    }
+    #heading{
+        width: 40%; 
+    }
+    #logo > span{
+        margin-left:-3.2%;
+        
+    }
+}
+@media screen and (max-width:800px){
+    body{
+        background-color: rgb(198, 245, 198);
+    }
+    .tileContainer{
+        box-shadow: 10px 15px 20px rgb(163, 179, 178);
+        width:80%;
+    }
+        #quicksearch{
+        margin-left: 15%;
+    }
+    #heading{
+        width: 50%; 
+    }
+    #logo > span{
+        margin-left:-3.5%;
+    }
+    #logo{
+        margin-left:43%;
+    }
+    #dropdown{
+        width: 60%;
+    }
+    
+}
+@media screen and (max-width:600px){
+    body{
+        background-color: gray;
+    }
+    .tileContainer{
+        box-shadow:10px 15px 20px white;   
+    }
+    #heading{
+        width: 65%; 
+    }
+    #logo > span{
+        margin-left:-4.5%;
+    }
+    #logo{
+        margin-left:40%;
+    }
+    #dropdown{
+        width: 80%;
+    }
+}
+/*
+@media screen and (max-width:750px){
+    body{
+        background-color: rgb(204, 223, 210);
+    }
+    .tileContainer{
+        box-shadow: 10px 15px 20px white;
+    }
+}
+@media screen and (max-width:650px){
+    body{
+        background-color: rgb(232, 240, 121);
+    }
+    .tileContainer{
+        box-shadow: 10px 15px 20px rgb(245, 242, 242);
+        width:80%;
+    }
+    .ComponentSubHeading{
+        color:white;
+    }
+}*/
