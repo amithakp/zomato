@@ -59,7 +59,7 @@ class MenuDisplay extends Component {
                 </div>
                 <div className="col-md-12 bg-info">
                     {this.renderMenu(this.props)}
-                </div>
+                </div> 
             </>
         )
     }

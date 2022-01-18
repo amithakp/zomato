@@ -46,7 +46,7 @@ body{
     height: 230px;
     padding: 3%;
     padding-top: 5%;
-    border-radius: 34%;
+    border-radius: 20%;
 }
 .component2{
     width: 52%;
@@ -64,7 +64,8 @@ body{
     width: 34%;
     height: 45px;
     margin-top: 2%;
-    background: #ab5a74;
+    /* background: #ab5a74; */
+    background:#e91f1fd9;
     color: white;
     font-size: 20px;
     margin-left: 31%;
