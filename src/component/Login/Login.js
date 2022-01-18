@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import Header from '../Header';
 
-const loginrUrl = "https://developerjwt.herokuapp.com/api/auth/login";
+const loginrUrl = "https://login-out.herokuapp.com/api/auth/login";
 
 class Login extends Component {
     constructor(props){
