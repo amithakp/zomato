@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import './Header.css';
 import {withRouter} from 'react-router-dom';
 
-const url ="https://developerjwt.herokuapp.com/api/auth/userinfo";
+const url ="https://login-out.herokuapp.com/api/auth/userinfo";
 
 class Header extends Component {
     constructor(props){
